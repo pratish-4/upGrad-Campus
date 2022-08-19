@@ -6,37 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detail</title>
-    <style>
-        .socialMedia {
-            height: 20px;
-            width: 22px;
-        }
-    </style>
+    <link rel="stylesheet" href="/styles/detail.css">
 </head>
 
 <body>
-    <div>
+    <div id="entire">
         <header>
             <span>
-                <a href="/index.html"><img style="height:150px; width:200px" src="/assests/images/logo.png" alt="logo"></a>
+                <a href="/index.html"><img id="logo" src="/assests/images/logo.png" alt="logo"></a>
                 <a href="/login.html" target="_blank">Login</a>
             </span>
         </header>
         <div id ="Container">
-            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="">
+            <img id="rad" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="">
             <br>
             <form action="/payment.html">
                 <label for="qtys">Adults :</label>
-                <input id="qtys"type="number" min="1">
+                <input id="qtys"type="number" min="1" required>
                 <br>
                 <label for="name">Name :</label>
-                <input type="text" id="name">
+                <input type="text" id="name" required>
                 <br>
                 <label for="startDate">From Date :</label>
-                <input type="date" id="startDate">
+                <input type="date" id="startDate" required>
                 <br>
                 <label for="endDate">To Date :</label>
-                <input type="date" id="endDate">
+                <input type="date" id="endDate" required>
                 <br>
                 <label for="total">Total :</label>
                 <input type="text id="total" readonly>

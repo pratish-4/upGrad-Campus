@@ -1,0 +1,19 @@
+#entire{
+    margin: auto;
+    border: 2px dotted black;
+}
+.socialMedia {
+    height: 20px;
+    width: 22px;
+}
+#logo {
+    height: 60px;
+    width: 60px;
+}
+.hotelImages{
+    height: 200px;
+    width: 250px;
+}
+html{
+    scroll-behavior: smooth;
+}
