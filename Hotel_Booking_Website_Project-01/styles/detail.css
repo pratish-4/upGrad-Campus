@@ -1,13 +1,40 @@
-
 .socialMedia {
     height: 20px;
     width: 22px;
 }
-#logo{
+
+#logo {
     height: 60px;
     width: 60px;
 }
-#rad{
+
+#rad {
     height: 500px;
     width: 500px;
+}
+
+header {
+    background-color: rosybrown;
+}
+
+footer {
+    background-color: rosybrown;
+
+}
+
+#entire {
+    background-size: auto;
+    background-color: #e0e0e0;
+}
+
+#hotel {
+    margin: 2% 4% 0px 4%;
+}
+
+#other {
+    margin: 0% 4% 1% 4%;
+}
+
+#other2 {
+    margin: 1% 4% 2% 4%;
 }

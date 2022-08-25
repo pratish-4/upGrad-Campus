@@ -1,6 +1,8 @@
+body {margin: 0%; padding:0%; box-sizing: border-box;}
+
 #entire{
-    margin: auto;
-    border: 2px dotted black;
+    background-size: auto;
+    background-color: #e0e0e0;
 }
 .socialMedia {
     height: 20px;
@@ -13,7 +15,19 @@
 .hotelImages{
     height: 200px;
     width: 250px;
+    margin: 2%;
 }
 html{
     scroll-behavior: smooth;
+}
+header{
+    background-color: rosybrown;
+}
+footer{
+    background-color: rosybrown;
+}
+.cards{
+    background-color: rgb(132,136,139);
+    width: 40%;
+    margin-left: 35px;
 }

@@ -1,17 +1,48 @@
-
 .socialMedia {
-height: 20px;
-width: 22px;
+    height: 20px;
+    width: 22px;
 }
 
-#logo{
+#logo {
     height: 60px;
     width: 60px;
 }
-#entire{
+
+#entire {
     background-size: 100% 100%;
 }
-#img{
+
+#img {
     height: 500px;
     width: 500px;
+}
+
+header {
+    background-color: rosybrown;
+}
+
+footer {
+    background-color: rosybrown;
+
+}
+
+#entire {
+    background-size: auto;
+    background-color: #e0e0e0;
+}
+#part1{
+    background-color: rgb(132,136,139);
+    display: block;
+    width: 50%;
+    height: 20%;
+    margin: 2% auto;
+}
+#part2{
+    margin: 2%;
+}
+#part3{
+    border: 1px solid black;
+    margin: 2%;
+    padding: 1% 2%;
+    border-radius: 5px;
 }
