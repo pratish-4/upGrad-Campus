@@ -14,7 +14,14 @@
 }
 
 header {
+    display: inline-block;
     background-color: rosybrown;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    top: 0px;
+    box-sizing: border-box;
+    z-index: 200px;
 }
 
 footer {
@@ -37,4 +44,52 @@ footer {
 
 #other2 {
     margin: 1% 4% 2% 4%;
+}
+#login {
+    display: inline-block;
+    position: absolute;
+    align-items: center;
+    right: 10px;
+    top: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+html,
+body {
+    width: 100%;
+    height: 100%h;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rosybrown;
+    height: 60px;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+#contactus {
+    position: absolute;
+    left: 30px;
+    align-items: center;
+}
+
+#bottomline {
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+
+#smIcons {
+    position: absolute;
+    right: 30px;
+    align-items: center;
+
 }

@@ -7,21 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
     <link rel="stylesheet" href="/styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div id="entire">
         <header>
-            <span>
-                <img id="logo" src="/assests/images/logo.png" alt="logo">
-                <a href="/login.html">Login</a>
-            </span>
+            <img id="logo" src="/assests/images/logo.png" alt="logo">
+            <a id="login" href="/login.html">Login</a>
         </header>
         <div id="Content">
             <div id="searchBar">
-                <form action="#">
-                    <input type="text" placeholder="City">
-                </form>
+                <div class="mic">
+                    <form action="#">
+                        <input id="search" type="text" placeholder="City">
+                    </form>
+                </div>
             </div>
             <div id="container">
                 <div class="item">
@@ -41,21 +42,23 @@
                 </div>
             </div>
             <br>
-            <a href="/index.html">View more>></a>
+            <div class="viewmore">
+                <a id="viewmore" href="/index.html">View more>></a>
+            </div>
         </div>
         <footer>
-            <div>
+            <div id="contactus">
                 <a href="/contact.html">Contact us</a>
             </div>
-            <span>
+            <div id="smIcons">
                 <a href="https://www.facebook.com"><img class="socialMedia" src="assests/images/facebook.png"
                         alt="icon"></a>
                 <a href="https://www.instagram.com"><img class="socialMedia" src="assests/images/instagram.png"
                         alt="icon"></a>
                 <a href="https://twitter.com"><img class="socialMedia" src="assests/images/twitter.png" alt="icon"></a>
-            </span>
+            </div>
             <br>
-            &#169; 2020 ROOM SEARCH PVT. LTD.
+            <p id="bottomline">&#169; 2020 ROOM SEARCH PVT. LTD.</p>
         </footer>
     </div>
 </body>
